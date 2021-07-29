@@ -1,0 +1,13 @@
+// Create a firebase component and inzitiliaze 
+//Connect database and create DBref to store values and have a reference to data base
+//Use UseState (two use states, one for the data for to do list, and one for the user input values ) as well as props,  to gather values from database 
+//Create a Useeffect to render the values effectively on user input value/interaction
+//Create a function that's an event listener under Useeffect to get our data when we callback
+//Create a component for a form that takes user input and based on checked result appends that data to either form, first being added to the database (good things or bad things)
+//Prevent default for form on submission
+//Set value to user input to be a Use state prop
+//Create a button and event handler in my form to add items, pushing the values from the user input to the database
+//Dbref on value to enter our data and LISTEN!!!! to additions to our list from our input form
+
+//mapping over properties to display goals on lists (once again based on TWO seperate nodes in the database)
+

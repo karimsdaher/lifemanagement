@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+div{
+  margin-top:-30px;
+  background:linear-gradient(#283c86,#45a247);
+  height:100%;
+
+}
+
+h1.title-todo{
+  color:#fff;
+  font-weight: 500;
+  font-size:42px;
+  margin-left:10px;
+  padding-top:50px;
+}
+
+ul{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  
+}
+
+ul li{
+  margin:10px;
+  width:200px;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:1px 1px 10px #0004;
+  background-color:white;
+}
+
+form{
+  padding:15px;
+}
+
+input#newtask{
+padding:20px;
+height:13px;
+width:120px;
+}
+
+form button{
+  background:white;
+  box-shadow:0px 1px #0004;
+  border:none;
+  padding:20px;
+}
+
+form button:hover{
+  background:#ffaa;
+  box-shadow:0px 1px #0004;
+  border:none;
+  padding:20px;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  max-width:1000px;
+  width:100%;
+  text-align:center;
+  align-items: center;
+
+}
